@@ -15,61 +15,46 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 <!-- Sidebar/menu -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-animate-right w3-top w3-text-light-grey w3-large" style="z-index:3;width:250px;font-weight:bold;display:none;right:0;" id="mySidebar">
   <a href="javascript:void()" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-32">CLOSE</a> 
-  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">PORTFOLIO</a> 
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">HOME</a> 
+  <a href= "projects.html" target= "_self" class="w3-bar-item w3-button w3-center w3-padding-16">PROJECTS</a>
   <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">ABOUT ME</a> 
-  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">CONTACT</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">CONTACT INFO</a>
 </nav>
 
 <!-- Top menu on small screens -->
+
 <header class="w3-container w3-top w3-white w3-xlarge w3-padding-16">
-  <span class="w3-left w3-padding">Digi Fab</span>
+  <a href="index.html" target="_self"></a>
+  <span class="w3-left w3-padding">Introduction to Digital Fabrication</span>
   <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
 </header>
 
 <!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
-
+<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>">
 <!-- !PAGE CONTENT! -->
-<div class="w3-main w3-content" style="max-width:1600px;margin-top:83px">
-  
-  <!-- Photo grid -->
-  <div class="w3-row w3-grayscale-min">
-    <div class="w3-quarter">
-      <img src="/w3images/girl.jpg" style="width:100%" onclick="onClick(this)" alt="Week 1: Building a Website">
-      <img src="/w3images/boy.jpg" style="width:100%" onclick="onClick(this)" alt="Week 2">
-      <img src="/w3images/girl.jpg" style="width:100%" onclick="onClick(this)" alt="Week 3">
-   </div>
-    
-   <div class="w3-quarter">
-      <img src="/w3images/girl_train.jpg" style="width:100%" onclick="onClick(this)" alt="Week 4">
-      <img src="/w3images/man_bench.jpg" style="width:100%" onclick="onClick(this)" alt="Week 5">
-      <img src="/w3images/natureboy.jpg" style="width:100%" onclick="onClick(this)" alt="Week 6">
-    </div>
-    
-    <div class="w3-quarter">
-      <img src="/w3images/man_bench.jpg" style="width:100%" onclick="onClick(this)" alt="Week 7">
-      <img src="/w3images/girl_mountain.jpg" style="width:100%" onclick="onClick(this)" alt="Week 8">
-      <img src="/w3images/closegirl.jpg" style="width:100%" onclick="onClick(this)" alt="Week 9">
-    </div>
 
-    <div class="w3-quarter">
-      <img src="/w3images/natureboy.jpg" style="width:100%" onclick="onClick(this)" alt="Week 10">
-      <img src="/w3images/girl_train.jpg" style="width:100%" onclick="onClick(this)" alt="Week 11">
-      <img src="/w3images/boy.jpg" style="width:100%" onclick="onClick(this)" alt="Week 12">
-    </div>
-  </div>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+</head>
+<body>
 
-  <!-- Pagination -->
-  <div class="w3-center w3-padding-32">
-    <div class="w3-bar">
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
-      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
-    </div>
-  </div>
+
+  <img src="images/3dprintgif.gif" alt="homepage" style="width=55%:height=55%"" >
+</body>
+</html>
+
+
+
+
+
   
   <!-- Modal for full size images on click-->
   <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
@@ -83,76 +68,26 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   <!-- About section -->
   <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about">
     <h4><b>About Me</b></h4>
-    <img src="/w3images/avatar_hat.jpg" alt="Me" class="w3-image w3-padding-32" width="600" height="650">
+    <img src="images/JRO_2766finalfinal.png" alt="Me" class="w3-image w3-padding-32" width="600" height="650">
     <div class="w3-content w3-justify" style="max-width:600px">
-      <h4>My Name</h4>
-      <p>Some text about me. I love taking photos of PEOPLE. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      <h4>My name is Leland Broadhurst.</h4>
+      <p>I'm a 19 year old freshmaan attending Wheaton College(MA). I'm from Dover Massachusetts. Throughout my life I've been a skier, I started when I was 1.5 in my front yard with my dad helping me the whole way. 6 Months later, I could ski on my own and gradually from there my skill level went up and up. I started competing in slopestyle when I was 5, eventually getting consistant top 10's in the US Revolution Tour (one step under world cup).
       </p>
-      <p>mail: example@example.com</p>
-      <p>tel: 5353 35531</p>
-      <hr class="w3-opacity">
-      <h4 class="w3-padding-16">Technical Skills</h4>
-      <p class="w3-wide">Photography</p>
-      <div class="w3-white">
-        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:95%">95%</div>
-      </div>
-      <p class="w3-wide">Web Design</p>
-      <div class="w3-white">
-        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:85%">85%</div>
-      </div>
-      <p class="w3-wide">Photoshop</p>
-      <div class="w3-white">
-        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:80%">80%</div>
-      </div>
+      <p>Email: broadhurst_leland@wheatoncollege.edu</p>
+      <p>Cell: 508-816-5174</p>
+      
       <p><button class="w3-button w3-light-grey w3-padding-large w3-margin-top w3-margin-bottom w3-hover-black">Download Resume</button></p>
       <hr class="w3-opacity">
 
-      <h4 class="w3-padding-16">How much I charge</h4>
-      <div class="w3-row-padding" style="margin:0 -16px">
-        <div class="w3-half w3-margin-bottom">
-          <ul class="w3-ul w3-white w3-center">
-            <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
-            <li class="w3-padding-16">Web Design</li>
-            <li class="w3-padding-16">Photography</li>
-            <li class="w3-padding-16">5GB Storage</li>
-            <li class="w3-padding-16">Mail Support</li>
-            <li class="w3-padding-16">
-              <h2>$ 10</h2>
-              <span class="w3-opacity">per month</span>
-            </li>
-            <li class="w3-light-grey w3-padding-24">
-              <button class="w3-button w3-white w3-padding-large">Sign Up</button>
-            </li>
-          </ul>
-        </div>
+    
         
-        <div class="w3-half">
-          <ul class="w3-ul w3-white w3-center">
-            <li class="w3-black w3-xlarge w3-padding-32">Pro</li>
-            <li class="w3-padding-16">Web Design</li>
-            <li class="w3-padding-16">Photography</li>
-            <li class="w3-padding-16">50GB Storage</li>
-            <li class="w3-padding-16">Endless Support</li>
-            <li class="w3-padding-16">
-              <h2>$ 25</h2>
-              <span class="w3-opacity">per month</span>
-            </li>
-            <li class="w3-light-grey w3-padding-24">
-              <button class="w3-button w3-white w3-padding-large">Sign Up</button>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+       
 
   <!-- Contact section -->
   <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
     <div class="w3-content" style="max-width:600px">
       <h4 class="w3-center"><b>Contact Me</b></h4>
-      <p>Do you want me to photograph you? Fill out the form and fill me in with the details :) I love meeting new people!</p>
+      <p>Have an interesting idea? Feel free to contact me about it! Fill out the form below to get in touch with me about your innovation.</p>
       <form action="/action_page.php" target="_blank">
         <div class="w3-section">
           <label>Name</label>
@@ -176,21 +111,21 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     <div class="w3-row-padding">
       <div class="w3-third">
         <h3>INFO</h3>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>      
+        </p>This class is all about building things through fabrication. This class utilizes CNC outing, 3d printing, machining and more!</p>      
       </div>
     
       <div class="w3-third">
-        <h3>BLOG POSTS</h3>
+        <h3>Featured Images</h3>
         <ul class="w3-ul">
           <li class="w3-padding-16 w3-hover-black">
-            <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
-            <span class="w3-large">Lorem</span><br>
-            <span>Sed mattis nunc</span>
+            <img src="Images/TBD.png" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">TBD</span><br>
+            <span>TBD</span>
           </li>
           <li class="w3-padding-16 w3-hover-black">
-            <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
-            <span class="w3-large">Ipsum</span><br>
-            <span>Praes tinci sed</span>
+            <img src="Images/TBD.png" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">TBD</span><br>
+            <span>TBD</span>
           </li> 
         </ul>
       </div>
@@ -198,11 +133,11 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <div class="w3-third">
         <h3>POPULAR TAGS</h3>
         <p>
-          <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">London</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">DIY</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Family</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Shopping</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Games</span>
+          <span class="w3-tag w3-dark-grey w3-margin-bottom">3D Printing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cutting</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Epoxy</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">CNC Routing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Open-Source</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">DIY</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Machining</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Coding</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">AI</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Vinyl</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Drilling</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Tech</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Learning</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Building</span>
         </p>
       </div>
     </div>
