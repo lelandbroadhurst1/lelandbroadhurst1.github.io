@@ -19,6 +19,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   <a href= "projects.html" target= "_self" class="w3-bar-item w3-button w3-center w3-padding-16">PROJECTS</a>
   <a href="aboutme.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">ABOUT/CONTACT ME</a> 
 </nav>
+
 <!-- Top menu on small screens -->
 
 <header class="w3-container w3-top w3-white w3-xlarge w3-padding-16">
@@ -45,35 +46,14 @@ img {
 <body>
 
 
+  <img src="images/IMG_2618.JPG" alt="mthoodrail" style= "width: 66%; height: 66%;" >
 
-</a>  <!-- Photo grid -->
+</body>
+</html>
 
-<div class="w3-main w3-content" style="max-width:1600px;margin-top:83px">
-  <figure>
-<a href="page2.html" target="_self">
-<img src="images/HTML.jpeg" alt="test" style= "width:500px;height:500px;" >
-<figcaption> Website Production </figcaption>
-</figure>
 
- <div class="w3-row  w3-grayscale-min">
-   <figure>
-    <div class="w3-main w3-content" style="max-width:1600px;margin-top:83px">
-    <a href="page3.html" target="_self">
-    <img alt="test" src="images/TBD.png" style= "width:500px;height:500px;" >
-    <figcaption>fig.1 - Week 1 </figcaption>
-</figure>
 
-<div class="w3-row w3-grayscale-min">
-  <figure>
-   <div class="w3-main w3-content" style="max-width:1600px;margin-top:83px">
-   <a href="page3.html" target="_self">
-   <img alt="test" src="images/TBD.png" style= "width:500px;height:500px;" >
-   <figcaption>fig.1 - Week 1 </figcaption>
-</figure>
-    </div>
-    </div>
-  </a>
-    
+
 
   
   <!-- Modal for full size images on click-->
@@ -85,28 +65,67 @@ img {
     </div>
   </div>
 
-  
+  <!-- About section -->
+  <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about">
+    <h4><b>About Me</b></h4>
+    <img src="images/JRO_2766finalfinal.png" alt="Me" class="w3-image w3-padding-32" width="600" height="650">
+    <div class="w3-content w3-justify" style="max-width:600px">
+      <h4>My name is Leland Broadhurst.</h4>
+      <p>I'm a 19 year old freshmaan attending Wheaton College(MA). I'm from Dover Massachusetts. Throughout my life I've been a skier, I started when I was 1.5 in my front yard with my dad helping me the whole way. 6 Months later, I could ski on my own and gradually from there my skill level went up and up. I started competing in slopestyle when I was 5, eventually getting consistant top 10's in the US Revolution Tour (one step under world cup).
+      </p>
+      <p>Email: broadhurst_leland@wheatoncollege.edu</p>
+      <p>Cell: 508-816-5174</p>
+      
+      <p><button class="w3-button w3-light-grey w3-padding-large w3-margin-top w3-margin-bottom w3-hover-black">Download Resume</button></p>
+      <hr class="w3-opacity">
+
+    
+        
+       
+
+  <!-- Contact section -->
+  <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
+    <div class="w3-content" style="max-width:600px">
+      <h4 class="w3-center"><b>Contact Me</b></h4>
+      <p>Have an interesting idea? Feel free to contact me about it! Fill out the form below to get in touch with me about your innovation.</p>
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-section">
+          <label>Name</label>
+          <input class="w3-input w3-border" type="text" name="Name" required>
+        </div>
+        <div class="w3-section">
+          <label>Email</label>
+          <input class="w3-input w3-border" type="text" name="Email" required>
+        </div>
+        <div class="w3-section">
+          <label>Message</label>
+          <input class="w3-input w3-border" type="text" name="Message" required>
+        </div>
+        <button type="submit" class="w3-button w3-block w3-black w3-margin-bottom">Send Message</button>
+      </form>
+    </div>
+  </div>
 
   <!-- Footer -->
   <footer class="w3-container w3-padding-32 w3-grey">  
     <div class="w3-row-padding">
       <div class="w3-third">
         <h3>INFO</h3>
-        </p>This class is all about building things through fabrication. This class utilizes CNC outing, 3d printing, machining and more!</p>      
+        </p>This class is all about building things through digital fabrication methods. This class utilizes CNC outing, 3d printing, machining and more!</p>      
       </div>
     
       <div class="w3-third">
         <h3>Featured Images</h3>
         <ul class="w3-ul">
           <li class="w3-padding-16 w3-hover-black">
-            <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
-            <span class="w3-large">TBA</span><br>
-            <span>TBA</span>
+            <img src="Images/TBD.png" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">TBD</span><br>
+            <span>TBD</span>
           </li>
           <li class="w3-padding-16 w3-hover-black">
-            <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
-            <span class="w3-large">TBA</span><br>
-            <span>TBA</span>
+            <img src="Images/TBD.png" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">TBD</span><br>
+            <span>TBD</span>
           </li> 
         </ul>
       </div>
@@ -114,7 +133,7 @@ img {
       <div class="w3-third">
         <h3>POPULAR TAGS</h3>
         <p>
-          <span class="w3-tag w3-black w3-margin-bottom">3D Printing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cutting</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Epoxy</span>
+          <span class="w3-tag w3-dark-grey w3-margin-bottom">3D Printing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cutting</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Epoxy</span>
           <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">CNC Routing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Open-Source</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">DIY</span>
           <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Machining</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Coding</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">AI</span>
           <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Vinyl</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Drilling</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Tech</span>
